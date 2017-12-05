@@ -1,0 +1,29 @@
+{
+  "name": "core-framework/dispatcher",
+  "description": "CoreFramework Event Dispatcher Component",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shalom Sam",
+      "email": "shalom.s@coreframework.in"
+    },
+    {
+      "name": "Shalom Sam",
+      "email": "shalom.k.sam@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "repositories": [],
+  "autoload": {
+    "psr-4": {
+      "Core\\": "src/Core"
+    }
+  },
+  "require": {
+    "php": "^7.1.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
